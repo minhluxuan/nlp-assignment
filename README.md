@@ -51,7 +51,7 @@ The repository is available [here](https://github.com/Pinminh/food-chatbot).
 
 ## Quick Start
 
-A working Colab notebook to run the system is available [here](https://colab.research.google.com/drive/1rYZk_YzPcdsjYIEoJ1X11Xc0Bb0me3ia?usp=sharing).
+A working Colab notebook to run the system is available [here](https://colab.research.google.com/drive/1rYZk_YzPcdsjYIEoJ1X11Xc0Bb0me3ia?usp=sharing). Demonstration video can be watched at this [drive](https://drive.google.com/file/d/1xDsvANOYJUaSXyBL-mkqkLytXiHaQkHr/view?usp=sharing).
 
 ### Option 1: Local Installation
 
