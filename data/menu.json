@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Phở Bò Wagyu A5",
+    "short_description": "Thịt bò Wagyu A5 thượng hạng, nước dùng ninh xương 24h, bánh phở tươi.",
+    "long_description": "Sự kết hợp tinh tế giữa những lát bò Wagyu A5 mềm tan trong miệng và nước dùng phở truyền thống được ninh từ xương ống bò trong 24 giờ cùng quế, hồi, thảo quả nướng. Phục vụ kèm bánh phở tươi làm trong ngày, rau sống và quẩy giòn.",
+    "category": "Món Phở",
+    "price": 350000,
+    "availability": true
+  },
+  {
+    "name": "Phở Bò Tái Lăn",
+    "short_description": "Thịt bò xào lăn tỏi thơm lừng, nước dùng béo ngậy đậm đà.",
+    "long_description": "Thịt bò tươi được thái mỏng và xào nhanh trên lửa lớn với tỏi đập dập và gia vị để giữ độ ngọt và mềm. Nước dùng chan lên nóng hổi, dậy mùi thơm của tỏi phi và hành lá, mang lại hương vị đậm đà khó quên.",
+    "category": "Món Phở",
+    "price": 95000,
+    "availability": true
+  },
+  {
+    "name": "Phở Gà Ta Tràng An",
+    "short_description": "Gà đồi thả vườn dai ngon, da giòn, nước dùng thanh ngọt từ xương gà.",
+    "long_description": "Sử dụng gà ta thả vườn tuyển chọn, thịt chắc và da giòn vàng óng. Nước dùng được hầm hoàn toàn từ xương gà và sá sùng khô, tạo vị ngọt thanh tao, thơm nhẹ mùi lá chanh thái chỉ đặc trưng của miền Bắc.",
+    "category": "Món Phở",
+    "price": 85000,
+    "availability": true
+  },
+  {
+    "name": "Phở Bò Nạm Gầu Giòn",
+    "short_description": "Nạm bò mềm và gầu bò giòn sần sật, nước dùng trong vắt.",
+    "long_description": "Bát phở đầy đặn với phần nạm bò được hầm mềm tới và gầu bò giòn thơm béo ngậy. Nước dùng trong vắt, ngọt hậu vị từ xương ống và mực nướng, ăn kèm dấm tỏi ớt thủ công.",
+    "category": "Món Phở",
+    "price": 90000,
+    "availability": true
+  },
+  {
+    "name": "Phở Cuốn Ngũ Xã",
+    "short_description": "Bánh phở tấm to cuốn thịt bò xào tỏi và rau thơm, chấm nước mắm chua ngọt.",
+    "long_description": "Món ăn thanh mát với lớp bánh phở trắng mịn nguyên tấm, cuốn bên trong là thịt bò xào lăn đậm đà và các loại rau thơm tươi mát (xà lách, mùi ta). Dùng kèm nước chấm chua ngọt pha tỏi ớt đặc biệt.",
+    "category": "Món Phở",
+    "price": 110000,
+    "availability": true
+  },
+  {
+    "name": "Phở Xào Bò Mềm",
+    "short_description": "Bánh phở xào áp chảo cháy cạnh với thịt bò và cải ngọt sốt dầu hào.",
+    "long_description": "Bánh phở được áp chảo nhiệt độ cao để tạo lớp vỏ hơi xém cạnh nhưng vẫn mềm bên trong, xào cùng thịt bò tẩm ướp đậm đà, cải ngọt và hành tây. Sốt xào sền sệt, thơm mùi dầu hào và tiêu đen.",
+    "category": "Món Phở",
+    "price": 120000,
+    "availability": true
+  },
+  {
+    "name": "Bún Chả Hà Nội (Kèm Nem Cua Bể)",
+    "short_description": "Chả nướng than hoa, bún tươi, nước mắm đu đủ và nem cua bể giòn rụm.",
+    "long_description": "Thịt ba chỉ và chả viên được tẩm ướp gia vị truyền thống, nướng trên than hoa đượm mùi khói. Ăn kèm bún rối, rau sống và bát nước mắm pha ấm nóng có đu đủ xanh, cà rốt ngâm. Phần đặc biệt đi kèm một chiếc nem cua bể vuông giòn tan.",
+    "category": "Bún & Mì",
+    "price": 145000,
+    "availability": true
+  },
+  {
+    "name": "Bún Bò Huế Cung Đình",
+    "short_description": "Bún sợi to, nạm bò, chả cua, giò heo, nước dùng mắm ruốc cay nồng.",
+    "long_description": "Đặc sản Cố đô với nước dùng đậm đà hương sả và mắm ruốc Huế. Tô bún đầy đủ gồm chân giò heo, nạm bò, chả cua bể làm thủ công và tiết luộc. Ăn kèm rau chuối bào, giá sống và sa tế ớt chưng cay nồng.",
+    "category": "Bún & Mì",
+    "price": 135000,
+    "availability": true
+  },
+  {
+    "name": "Bún Riêu Cua Đồng",
+    "short_description": "Riêu cua đồng tươi, đậu hũ chiên, cà chua, nước dùng vị dấm bỗng.",
+    "long_description": "Nước dùng có vị chua dịu thanh mát từ dấm bỗng và cà chua. Gạch cua đồng được chưng vàng óng, ăn cùng đậu hũ chiên lướt ván, thịt bắp bò trần và chả ốc thơm lừng. Rau sống ăn kèm gồm hoa chuối và tía tô.",
+    "category": "Bún & Mì",
+    "price": 85000,
+    "availability": true
+  },
+  {
+    "name": "Bún Thang Hà Nội",
+    "short_description": "Bún thang thanh tao với gà xé, giò lụa, trứng tráng mỏng và tôm bông.",
+    "long_description": "Một bức tranh ẩm thực tinh tế với các nguyên liệu được thái chỉ cầu kỳ: lườn gà xé phay, giò lụa, trứng gà tráng mỏng và tôm he bông. Nước dùng trong vắt ngọt lịm từ gà và tôm khô, điểm thêm chút mắm tôm và tinh dầu cà cuống (tuỳ chọn).",
+    "category": "Bún & Mì",
+    "price": 115000,
+    "availability": false
+  },
+  {
+    "name": "Bún Thịt Nướng Chả Giò",
+    "short_description": "Thịt nướng sả, chả giò rế, bún tươi, mỡ hành và đậu phộng rang.",
+    "long_description": "Món ăn khô đặc trưng miền Nam với thịt nạc dăm ướp sả nướng vàng, chả giò rế giòn tan, ăn kèm bún tươi, dưa chua, rau sống và mỡ hành. Nước mắm chua ngọt rưới đều tạo nên sự hòa quyện tuyệt vời.",
+    "category": "Bún & Mì",
+    "price": 95000,
+    "availability": true
+  },
+  {
+    "name": "Bún Mắm Miền Tây",
+    "short_description": "Hương vị đậm đà từ mắm cá linh, ăn kèm heo quay, tôm, mực và rau bông súng.",
+    "long_description": "Nước lèo được nấu từ mắm cá linh và cá sặc thơm lừng nhưng không gắt, lọc kỹ cốt. Topping phong phú gồm thịt heo quay da giòn, tôm sú, mực ống và chả cá thác lác. Rổ rau sống chuẩn miền Tây với bông súng, điên điển, rau đắng.",
+    "category": "Bún & Mì",
+    "price": 125000,
+    "availability": true
+  },
+  {
+    "name": "Bún Đậu Mắm Tôm Tá Lả",
+    "short_description": "Mẹt bún lá, đậu mơ chiên giòn, chả cốm, thịt chân giò, mắm tôm pha tắc.",
+    "long_description": "Mẹt bún đậu thập cẩm trình bày đẹp mắt với đậu hũ làng Mơ chiên ngoài giòn trong mềm, chả cốm Ước Lễ, thịt chân giò luộc thái lát mỏng và dồi sụn nướng. Mắm tôm Thanh Hóa loại 1 được pha chế với đường, tắc và ớt tươi đánh bông.",
+    "category": "Bún & Mì",
+    "price": 110000,
+    "availability": true
+  },
+  {
+    "name": "Mì Quảng Tôm Thịt Gà",
+    "short_description": "Sợi mì vàng nghệ, tôm rim, thịt gà ta, chan ít nước dùng đậm đà, bánh đa nướng.",
+    "long_description": "Đặc sản Quảng Nam với sợi mì gạo tráng tay pha bột nghệ. Nhân gồm tôm đất rim mặn ngọt, thịt gà ta kho nghệ và trứng cút. Nước dùng sâm sấp đậm vị, ăn kèm bánh đa nướng giòn rụm, đậu phộng rang và rau cải con.",
+    "category": "Bún & Mì",
+    "price": 95000,
+    "availability": true
+  },
+  {
+    "name": "Cao Lầu Phố Hội",
+    "short_description": "Sợi mì dai sần sật, thịt xá xíu, tép mỡ giòn, rau Trà Quế.",
+    "long_description": "Sợi Cao Lầu màu vàng sậm, dai đặc trưng nhờ ngâm tro thảo mộc. Thịt xá xíu được ướp ngũ vị hương đậm đà, ăn kèm tép mỡ chiên giòn tan và các loại rau thơm từ làng Trà Quế. Món ăn khô với một chút nước sốt xá xíu rưới lên.",
+    "category": "Bún & Mì",
+    "price": 105000,
+    "availability": true
+  },
+  {
+    "name": "Hủ Tiếu Nam Vang Đặc Biệt",
+    "short_description": "Hủ tiếu dai, tôm, gan, thịt bằm, trứng cút, nước dùng xương hầm mực khô.",
+    "long_description": "Sợi hủ tiếu dai trong, topping phong phú bao gồm tôm sú, thịt nạc bằm, gan heo, tim và trứng cút. Nước lèo ngọt tự nhiên từ xương ống và mực khô nướng, thêm tỏi phi thơm lừng và cần tây.",
+    "category": "Bún & Mì",
+    "price": 110000,
+    "availability": true
+  },
+  {
+    "name": "Bánh Canh Cua Nguyên Con",
+    "short_description": "Sợi bánh canh bột lọc dai, thịt cua tươi, chả cua, nước dùng sệt màu điều.",
+    "long_description": "Nước dùng sền sệt đậm đà màu gạch tôm, nấu từ nước hầm xương và hải sản. Điểm nhấn là thịt cua Cà Mau tươi gỡ sẵn (hoặc nguyên càng), chả cua viên, huyết và nấm rơm. Sợi bánh canh bột lọc trong và dai.",
+    "category": "Bún & Mì",
+    "price": 160000,
+    "availability": true
+  },
+  {
+    "name": "Miến Lươn Nghệ An (Trộn/Nước)",
+    "short_description": "Lươn đồng chiên giòn tan, miến dong dai ngon, rau răm, hành phi.",
+    "long_description": "Lươn đồng được sơ chế kỹ, tẩm bột chiên giòn rụm nhưng vẫn giữ độ ngọt thịt. Miến dong loại 1 không bị nát. Nước dùng hầm từ xương lươn và gừng, có vị ngọt đậm đà, cay nhẹ của hạt tiêu và rau răm.",
+    "category": "Bún & Mì",
+    "price": 95000,
+    "availability": true
+  },
+  {
+    "name": "Bánh Mì Pate Thịt Nguội (Đặc Biệt)",
+    "short_description": "Bánh mì giòn, pate gan ngỗng, thịt nguội, chả lụa, đồ chua, bơ trứng.",
+    "long_description": "Ổ bánh mì nướng giòn rụm, phết lớp bơ trứng béo ngậy và pate gan ngỗng (foie gras) tự làm. Nhân đầy đặn với 3 loại thịt nguội (jambon), chả lụa, xá xíu, kết hợp cùng dưa leo, ngò rí và đồ chua giòn tan.",
+    "category": "Bánh Mì",
+    "price": 75000,
+    "availability": true
+  },
+  {
+    "name": "Bánh Mì Heo Quay Giòn Bì",
+    "short_description": "Heo quay da giòn, nước sốt đậm đà, dưa leo, ớt sừng.",
+    "long_description": "Thịt ba chỉ heo quay với lớp da nổ giòn bì, thái miếng dày vừa ăn. Kẹp trong bánh mì nóng cùng nước sốt kho tộ sánh đặc độc quyền, dưa leo tươi và vài lát ớt sừng cay nồng kích thích vị giác.",
+    "category": "Bánh Mì",
+    "price": 80000,
+    "availability": true
+  },
+  {
+    "name": "Bánh Mì Chảo Bít Tết",
+    "short_description": "Bò bít tết, trứng ốp la, pate, xúc xích, khoai tây chiên, sốt tiêu đen.",
+    "long_description": "Phục vụ trên chảo gang nóng hổi với thịt bò bít tết mềm mọng, trứng ốp la, xúc xích hun khói, pate và khoai tây chiên. Nước sốt tiêu đen hoặc sốt vang sánh mịn để chấm cùng bánh mì giòn.",
+    "category": "Bánh Mì",
+    "price": 135000,
+    "availability": true
+  },
+  {
+    "name": "Gỏi Cuốn Tôm Thịt (3 cuốn)",
+    "short_description": "Tôm sú, thịt ba chỉ, bún, rau sống cuốn bánh tráng, chấm tương đen.",
+    "long_description": "Món khai vị thanh đạm với tôm sú luộc đỏ au, thịt ba chỉ thái lát, bún tươi và rau húng quế, hẹ, được cuốn chặt tay trong lớp bánh tráng mỏng dẻo. Nước chấm là tương đen (hoisin) pha bơ đậu phộng và đồ chua.",
+    "category": "Khai Vị & Món Cuốn",
+    "price": 65000,
+    "availability": true
+  },
+  {
+    "name": "Chả Giò Rế Hải Sản (5 cuốn)",
+    "short_description": "Vỏ rế giòn tan, nhân tôm cua mực, sốt mayonnaise wasabi.",
+    "long_description": "Lớp vỏ bánh tráng rế vàng ươm, giòn rụm bao bọc phần nhân hải sản tươi (tôm, mực, thịt cua) trộn với khoai môn và mộc nhĩ. Chấm cùng sốt mayonnaise pha chút wasabi nhẹ hoặc nước mắm chua ngọt.",
+    "category": "Khai Vị & Món Cuốn",
+    "price": 95000,
+    "availability": true
+  },
+  {
+    "name": "Nem Nướng Nha Trang",
+    "short_description": "Nem nướng lụi, bánh tráng chiên, xoài xanh, rau sống, nước chấm nếp.",
+    "long_description": "Thịt heo xay quết dẻo nướng trên than hồng thơm phức. Cuốn kèm bánh tráng chiên giòn, xoài xanh, dưa leo và các loại rau thơm. Điểm đặc biệt là nước chấm làm từ gạo nếp, gan heo và thịt băm có màu vàng cam bắt mắt.",
+    "category": "Khai Vị & Món Cuốn",
+    "price": 130000,
+    "availability": true
+  },
+  {
+    "name": "Chạo Tôm Bao Mía",
+    "short_description": "Tôm quết nhuyễn bọc mía nướng, dai ngọt, thơm mùi mía.",
+    "long_description": "Tôm tươi được quết nhuyễn cùng gia vị, bọc quanh thanh mía lau và nướng chín vàng. Vị ngọt của mía thấm vào thịt tôm tạo độ thanh ngọt tự nhiên. Dùng để ăn chơi hoặc cuốn bánh tráng rau sống.",
+    "category": "Khai Vị & Món Cuốn",
+    "price": 150000,
+    "availability": true
+  },
+  {
+    "name": "Nem Cua Bể Hải Phòng",
+    "short_description": "Nem hình vuông, nhân thịt cua biển đầy đặn, vỏ giòn tan.",
+    "long_description": "Đặc sản đất Cảng với hình dáng vuông vức đặc trưng. Nhân nem đầy đặn gồm thịt cua bể tươi, thịt vai, tôm, trứng, nấm hương và miến. Vỏ nem mỏng chiên ngập dầu giòn tan, ăn kèm bún và nước mắm dấm ớt.",
+    "category": "Khai Vị & Món Cuốn",
+    "price": 160000,
+    "availability": true
+  },
+  {
+    "name": "Gỏi Ngó Sen Tôm Thịt",
+    "short_description": "Ngó sen giòn, tôm sú, thịt ba chỉ, cà rốt, lạc rang, nước mắm chua ngọt.",
+    "long_description": "Ngó sen tươi được sơ chế trắng giòn, trộn cùng tôm sú luộc, thịt ba chỉ thái sợi, cà rốt và rau răm. Rắc thêm đậu phộng rang và hành phi. Nước trộn gỏi chua ngọt cân bằng vị giác hoàn hảo.",
+    "category": "Khai Vị & Món Cuốn",
+    "price": 120000,
+    "availability": true
+  },
+  {
+    "name": "Gỏi Bưởi Tôm Khô",
+    "short_description": "Tép bưởi mọng nước, tôm khô một nắng, mực xé, chua ngọt thanh mát.",
+    "long_description": "Sử dụng bưởi da xanh hoặc Năm Roi mọng nước, tách tép nguyên vẹn. Trộn cùng tôm khô một nắng loại ngon, mực khô xé sợi và nước sốt chua ngọt đặc biệt. Món ăn kích thích vị giác, thanh mát và giàu vitamin.",
+    "category": "Khai Vị & Món Cuốn",
+    "price": 135000,
+    "availability": true
+  },
+  {
+    "name": "Bánh Xèo Miền Tây (Củ hũ dừa)",
+    "short_description": "Vỏ bánh vàng giòn, nhân tôm thịt, củ hũ dừa, đậu xanh, ăn kèm rau rừng.",
+    "long_description": "Chiếc bánh xèo size lớn, vỏ mỏng vàng ươm nhờ bột nghệ và nước cốt dừa, viền giòn rụm. Nhân bên trong gồm tôm đất, thịt ba chỉ, giá đỗ và đặc biệt là củ hũ dừa ngọt giòn. Ăn kèm rổ rau rừng (cải bẹ xanh, lá cóc, sao nhái).",
+    "category": "Món Bánh",
+    "price": 110000,
+    "availability": true
+  },
+  {
+    "name": "Bánh Khọt Vũng Tàu (Tôm tươi)",
+    "short_description": "Bánh tròn giòn rụm, nhân tôm tươi đỏ au, mỡ hành, bột tôm.",
+    "long_description": "Những chiếc bánh tròn nhỏ được chiên giòn trong khuôn dầu, bên trên là tôm tươi nguyên con, rắc thêm bột tôm cháy và mỡ hành thơm phức. Cuốn cùng lá cải xanh và chấm nước mắm chua ngọt pha đu đủ bào.",
+    "category": "Món Bánh",
+    "price": 95000,
+    "availability": true
+  },
+  {
+    "name": "Bánh Cuốn Thanh Trì Chả Quế",
+    "short_description": "Bánh tráng mỏng tang, hành phi, chả quế thơm, nước chấm tinh dầu cà cuống.",
+    "long_description": "Bánh cuốn tráng tay lớp mỏng tang, dai mềm, rắc hành phi vàng ruộm tự làm. Không nhân hoặc nhân thịt mộc nhĩ tuỳ chọn. Ăn kèm chả quế nướng thơm lừng và nước mắm chấm nhẹ dịu, có thể thêm tinh dầu cà cuống.",
+    "category": "Món Bánh",
+    "price": 85000,
+    "availability": true
+  },
+  {
+    "name": "Bánh Bèo Chén Xứ Huế",
+    "short_description": "Chén bánh gạo trắng mịn, tôm chấy, tóp mỡ giòn, nước mắm ngọt.",
+    "long_description": "Khay bánh bèo gồm 10 chén nhỏ, bột gạo hấp trắng mịn và mềm mại. Bên trên phủ lớp tôm chấy màu gạch tôm bắt mắt, tóp mỡ chiên giòn tan và mỡ hành. Chan nước mắm cốt pha đường phèn ngọt dịu trực tiếp vào chén khi ăn.",
+    "category": "Món Bánh",
+    "price": 90000,
+    "availability": true
+  },
+  {
+    "name": "Bánh Bột Lọc Tôm Thịt",
+    "short_description": "Vỏ bánh trong veo dai dai, nhân tôm rim thịt ba chỉ đậm đà.",
+    "long_description": "Bánh được gói trong lá chuối hoặc trần, lớp bột năng trong veo nhìn thấy rõ nhân bên trong. Nhân gồm tôm sông nhỏ rim mặn ngọt cùng thịt ba chỉ thái hạt lựu. Chấm nước mắm ớt xanh hoặc mắm ruốc pha loãng.",
+    "category": "Món Bánh",
+    "price": 75000,
+    "availability": true
+  },
+  {
+    "name": "Cơm Tấm Sườn Bì Chả",
+    "short_description": "Cơm gạo tấm, sườn cốt lết nướng than, bì heo, chả trứng, mỡ hành.",
+    "long_description": "Đĩa cơm tấm Sài Gòn trứ danh với hạt cơm tấm tơi xốp. Sườn cốt lết được ướp mật ong và nướng than hoa cháy cạnh thơm lừng. Đi kèm là bì heo trộn thính gạo rang, chả trứng hấp vàng ươm, dưa chua và chén nước mắm kẹo đặc trưng.",
+    "category": "Cơm & Món Chính",
+    "price": 105000,
+    "availability": true
+  },
+  {
+    "name": "Cơm Gà Hội An",
+    "short_description": "Cơm nấu nước luộc gà vàng óng, gà xé phay, rau răm, hành tây, nộm đu đủ.",
+    "long_description": "Hạt cơm dẻo thơm được nấu bằng nước luộc gà và nghệ tươi tạo màu vàng đẹp mắt. Thịt gà ta luộc chín tới, xé phay trộn cùng hành tây thái mỏng, rau răm và nước cốt chanh tiêu. Ăn kèm nộm đu đủ cà rốt và tương ớt Hội An.",
+    "category": "Cơm & Món Chính",
+    "price": 110000,
+    "availability": true
+  },
+  {
+    "name": "Cơm Chiên Dương Châu Hải Sản",
+    "short_description": "Cơm chiên tơi hạt, tôm, mực, lạp xưởng, trứng, đậu hà lan.",
+    "long_description": "Cơm được chiên trên lửa lớn để hạt cơm săn lại, vàng đều và tơi xốp. Kết hợp phong phú các nguyên liệu như tôm sú, mực, lạp xưởng, xá xíu, trứng gà, cà rốt và đậu hà lan, tạo nên món ăn đầy màu sắc và hương vị.",
+    "category": "Cơm & Món Chính",
+    "price": 125000,
+    "availability": true
+  },
+  {
+    "name": "Cơm Niêu Cá Kho Tộ",
+    "short_description": "Cá lóc/Cá hú kho tộ đậm đà, tiêu sọ, cơm nấu niêu đất có cháy giòn.",
+    "long_description": "Bữa cơm gia đình ấm cúng với niêu cơm trắng nấu than có lớp cháy giòn rụm dưới đáy. Cá lóc hoặc cá hú được kho trong tộ đất với nước màu dừa, nước mắm ngon và tiêu sọ đập dập cho đến khi thịt cá săn cứng, thấm vị mặn ngọt.",
+    "category": "Cơm & Món Chính",
+    "price": 180000,
+    "availability": true
+  },
+  {
+    "name": "Thịt Kho Tàu (Kho Rệu)",
+    "short_description": "Thịt ba chỉ kho mềm rục với nước dừa tươi và trứng vịt.",
+    "long_description": "Miếng thịt ba chỉ to bản được buộc dây, kho lửa nhỏ (kho rệu) với 100% nước dừa tươi cho đến khi mỡ trong veo, tan trong miệng và màu thịt đỏ au tự nhiên. Ăn kèm trứng vịt kho và dưa giá chua ngọt.",
+    "category": "Cơm & Món Chính",
+    "price": 150000,
+    "availability": true
+  },
+  {
+    "name": "Canh Chua Cá Lóc Miền Tây",
+    "short_description": "Vị chua ngọt thanh, cá lóc đồng, bạc hà, đậu bắp, me, rau om ngò gai.",
+    "long_description": "Món canh giải nhiệt với nước dùng chua ngọt hài hòa từ me chín. Cá lóc đồng thịt chắc ngọt nấu cùng bạc hà (dọc mùng), đậu bắp, giá đỗ, cà chua và thơm (dứa). Rắc thêm rau om, ngò gai và tỏi phi thơm nức.",
+    "category": "Cơm & Món Chính",
+    "price": 160000,
+    "availability": true
+  },
+  {
+    "name": "Bò Lúc Lắc Khoai Tây Chiên",
+    "short_description": "Thịt bò thăn cắt vuông xào lửa lớn, ớt chuông, hành tây, khoai tây chiên.",
+    "long_description": "Thịt thăn bò Úc cắt khối vuông (lúc lắc), ướp tiêu đen và xào nhanh trên lửa lớn để giữ độ mọng nước bên trong. Xào chung với ớt chuông ba màu và hành tây. Phục vụ kèm khoai tây chiên giòn hoặc cơm trắng.",
+    "category": "Cơm & Món Chính",
+    "price": 220000,
+    "availability": true
+  },
+  {
+    "name": "Gà Nướng Lu Xôi Chiên",
+    "short_description": "Gà nướng lu da giòn, thịt ngọt, ăn kèm xôi chiên phồng.",
+    "long_description": "Gà ta được tẩm ướp mật ong và gia vị bí truyền, nướng trong lu đất nung để da giòn đều và thịt giữ nước ngọt lịm. Món ăn trở nên hoàn hảo khi dùng kèm miếng xôi chiên phồng to, giòn tan, cắt ra dẻo thơm mùi nếp.",
+    "category": "Cơm & Món Chính",
+    "price": 280000,
+    "availability": true
+  },
+  {
+    "name": "Chả Cá Lã Vọng",
+    "short_description": "Cá lăng nướng than, xào thì là hành lá tại bàn, mắm tôm, bún.",
+    "long_description": "Phi lê cá lăng tươi được tẩm ướp riềng mẻ, nướng sơ trên than hoa. Khi ăn, thực khách sẽ đảo cá trên chảo mỡ nóng cùng rất nhiều hành lá và thì là. Ăn kèm bún rối, lạc rang và mắm tôm đánh bông.",
+    "category": "Cơm & Món Chính",
+    "price": 250000,
+    "availability": true
+  },
+  {
+    "name": "Ốc Hương Rang Muối Ớt",
+    "short_description": "Ốc hương biển tươi, rang muối ớt cay mặn, lớp vỏ áo muối giòn.",
+    "long_description": "Ốc hương biển loại 1, thịt giòn ngọt. Được rang khô trên chảo với hỗn hợp muối tôm, ớt hiểm và sả xay cho đến khi lớp muối bám chặt vào vỏ ốc, tạo vị mặn cay kích thích. Món nhắm hoặc ăn chơi tuyệt vời.",
+    "category": "Cơm & Món Chính",
+    "price": 190000,
+    "availability": true
+  },
+  {
+    "name": "Mực Một Nắng Nướng Sa Tế",
+    "short_description": "Mực lá một nắng dày mình, nướng sa tế cay thơm, chấm tương ớt xanh.",
+    "long_description": "Mực lá câu được phơi đúng một nắng để bên ngoài ráo nhưng bên trong vẫn tươi dẻo. Khía ca-rô và nướng trên than hồng với sốt sa tế tôm cay nồng. Thịt mực ngọt đậm, dai nhẹ, chấm muối ớt xanh chanh dây.",
+    "category": "Cơm & Món Chính",
+    "price": 260000,
+    "availability": true
+  },
+  {
+    "name": "Rau Muống Xào Tỏi (Rau Mầm)",
+    "short_description": "Rau muống non xanh mướt, xào tỏi đập dập, lửa lớn giòn tan.",
+    "long_description": "Chọn phần ngọn rau muống non và xanh mướt, chần sơ qua nước sôi rồi xào nhanh trên lửa cực lớn với nhiều tỏi đập dập. Rau giữ được màu xanh ngọc, độ giòn và thấm đẫm hương vị tỏi phi.",
+    "category": "Cơm & Món Chính",
+    "price": 65000,
+    "availability": true
+  },
+  {
+    "name": "Chè Hạt Sen Long Nhãn",
+    "short_description": "Hạt sen bùi lồng trong cùi nhãn giòn ngọt, nước đường phèn thanh mát.",
+    "long_description": "Món chè cung đình thanh tao. Hạt sen tươi được ninh bở tơi nhưng không nát, lồng khéo léo vào trong cùi nhãn lồng Hưng Yên dày cùi, giòn ngọt. Nấu cùng đường phèn tạo nên vị ngọt thanh, ướp hương hoa nhài.",
+    "category": "Tráng Miệng",
+    "price": 55000,
+    "availability": true
+  },
+  {
+    "name": "Chè Ba Màu (Chè Thập Cẩm)",
+    "short_description": "Đậu đỏ, đậu xanh, rau câu, nước cốt dừa béo ngậy, đá bào.",
+    "long_description": "Ly chè rực rỡ sắc màu với các lớp đậu đỏ rim đường mềm mại, đậu xanh đánh nhuyễn mịn màng và thạch rau câu lá dứa giòn dai. Chan ngập nước cốt dừa tươi béo ngậy và thêm đá bào mát lạnh.",
+    "category": "Tráng Miệng",
+    "price": 45000,
+    "availability": true
+  },
+  {
+    "name": "Bánh Flan Caramel Cốt Dừa",
+    "short_description": "Bánh flan mềm mịn, sốt caramel đắng nhẹ, cafe và cốt dừa.",
+    "long_description": "Bánh flan làm từ trứng gà tươi và sữa, hấp cách thủy đạt độ mềm mịn như lụa, không bị rỗ. Phục vụ với lớp caramel thắng nâu cánh gián, chút cafe đen đắng nhẹ và nước cốt dừa béo để cân bằng vị ngọt.",
+    "category": "Tráng Miệng",
+    "price": 40000,
+    "availability": true
+  },
+  {
+    "name": "Sương Sáo Hạt É Cốt Dừa",
+    "short_description": "Thạch sương sáo đen giòn, hạt é, nước cốt dừa, thanh nhiệt.",
+    "long_description": "Món tráng miệng giải nhiệt đơn giản nhưng hấp dẫn. Thạch sương sáo đen (thạch đen) cắt hạt lựu, dai giòn nhẹ, kết hợp với hạt é ngâm nở và nước đường phèn lá dứa, chan nước cốt dừa beo béo.",
+    "category": "Tráng Miệng",
+    "price": 35000,
+    "availability": true
+  },
+  {
+    "name": "Chè Chuối Nướng Cốt Dừa",
+    "short_description": "Chuối bọc nếp nướng lá chuối, chan nước cốt dừa, đậu phộng rang.",
+    "long_description": "Chuối sứ chín mùi được bọc lớp nếp dẻo nấu nước dừa, gói lá chuối và nướng trên than hoa đến khi vỏ nếp vàng giòn, thơm lừng. Cắt miếng và chan nước cốt dừa nóng hổi, rắc thêm đậu phộng rang giã dập.",
+    "category": "Tráng Miệng",
+    "price": 50000,
+    "availability": true
+  }
+]

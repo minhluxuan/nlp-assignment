@@ -1,0 +1,9 @@
+{
+  "total_queries": 50,
+  "avg_response_length": 122.88,
+  "context_retrieval_rate": 1.0,
+  "exact_match": 0.0,
+  "avg_f1_score": 0.4690210386948253,
+  "avg_bleu_score": 0.27363706107174063,
+  "avg_rouge_l": 0.3974468465933835
+}

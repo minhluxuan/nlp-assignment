@@ -1,0 +1,13 @@
+torch>=2.0.1
+transformers>=4.35.2
+sentence-transformers>=2.2.2
+chromadb>=0.4.22
+faiss-cpu>=1.7.4
+numpy>=1.24.3
+pandas>=2.0.3
+FlagEmbedding>=1.2.10
+accelerate>=0.25.0
+bitsandbytes>=0.41.3
+einops>=0.7.0
+scipy>=1.10.1
+optimum>=1.16.1
