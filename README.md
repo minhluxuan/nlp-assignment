@@ -3,6 +3,8 @@
 
 A complete implementation of a Vietnamese food ordering chatbot using modern NLP techniques: Large Language Models (LLM), Retrieval-Augmented Generation (RAG), and Reranking.
 
+The repository is available [here](https://github.com/Pinminh/food-chatbot).
+
 ---
 
 ## Features
@@ -48,6 +50,8 @@ A complete implementation of a Vietnamese food ordering chatbot using modern NLP
 ---
 
 ## Quick Start
+
+A working Colab notebook to run the system is available [here](https://colab.research.google.com/drive/1rYZk_YzPcdsjYIEoJ1X11Xc0Bb0me3ia?usp=sharing).
 
 ### Option 1: Local Installation
 
