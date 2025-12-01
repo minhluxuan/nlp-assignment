@@ -1,86 +1,86 @@
 # Vietnamese Food Ordering Chatbot
-## LLM + RAG + Reranker System
+## Hệ thống LLM + RAG + Reranker
 
-A complete implementation of a Vietnamese food ordering chatbot using modern NLP techniques: Large Language Models (LLM), Retrieval-Augmented Generation (RAG), and Reranking.
+Một giải pháp hoàn chỉnh cho chatbot đặt món ăn Việt Nam, được xây dựng dựa trên các kỹ thuật NLP hiện đại: Mô hình ngôn ngữ lớn (LLM), Retrieval-Augmented Generation (RAG), và Reranking.
 
-The repository is available [here](https://github.com/Pinminh/food-chatbot).
-
----
-
-## Features
-
-- **Open-source LLM**: Uses Qwen2.5-3B-Instruct (lightweight, multilingual)
-- **RAG System**: Retrieval-Augmented Generation with FAISS vector database
-- **Reranker**: BAAI/bge-reranker-v2-m3 for improved relevance
-- **Two Modes**: Batch processing and interactive chat
-- **Performance Evaluation**: Built-in metrics (F1, BLEU, ROUGE)
+Repo dự án tại đây [here](https://github.com/Pinminh/food-chatbot).
 
 ---
 
-## Project Structure
+## Đặc trưng dự án:
+
+- **LLM mã nguồn mở**: Sử dụng Qwen2.5-3B-Instruct (nhẹ, đa ngôn ngữ)
+- **Hệ thống RAG**: Tìm kiếm kết hợp sinh câu trả lời bằng FAISS vector database
+- **Reranker**: Áp dụng BAAI/bge-reranker-v2-m3 để tăng độ phù hợp
+- **Hai chế độ chạy**: Xử lý hàng loạt và trò chuyện tương tác
+- **Đánh giá chất lượng**: Tích hợp các chỉ số F1, BLEU, ROUGE
+
+---
+
+## Cấu trúc dự án
 
 ```
 .
-├── main.py                       # Main entry point
-├── config.py                     # Configuration settings
-├── chatbot.py                    # Chatbot system
-├── rag_system.py                 # RAG + reranker
-├── llm_generator.py              # LLM response generation
-├── data_loader.py                # Data loading utilities
-├── evaluator.py                  # Performance evaluation
-├── pyproject.toml                # Python dependencies
+├── main.py                      # Entry point của hệ thống
+├── config.py                    # Cấu hình chung
+├── chatbot.py                   # Logic chatbot
+├── rag_system.py                # RAG + reranker
+├── llm_generator.py             # Sinh phản hồi từ LLM
+├── data_loader.py               # Tiện ích load dữ liệu
+├── evaluator.py                 # Đánh giá hiệu suất
+├── pyproject.toml               # Cấu hình project
 ├── requirements.txt
 ├── uv.lock
-├── Dockerfile                    # Docker configuration
-├── README.md                     # This file
+├── Dockerfile                   # Cấu hình Docker
+├── README.md
+│
 ├── data/
-│   ├── menu.json                 # Vietnamese food menu in json
-│   └── menu.txt                  # Vietnamese food menu in txt
+│   ├── menu.json                # Menu món ăn (JSON)
+│   └── menu.txt                 # Menu món ăn (text)
+│
 ├── input/
-│   ├── queries.txt               # User queries
-│   └── answers.txt               # Ground-truth answers
+│   ├── queries.txt              # Các câu hỏi đầu vào
+│   └── answers.txt              # Đáp án chuẩn
+│
 └── output/
-    ├── results.json              # Full results
-    ├── answers.txt               # Answers only
-    ├── formatted_output.txt      # Query-context-response outputs
-    ├── query_response_pairs.txt  # Query-answer pairs
-    └── evaluation_metrics.json   # metrics
+    ├── results.json             # Kết quả chi tiết
+    ├── answers.txt              # Chỉ câu trả lời
+    ├── formatted_output.txt     # Query – context – response
+    ├── query_response_pairs.txt # Cặp query – response
+    └── evaluation_metrics.json  # Các chỉ số đánh giá
+
 ```
 
 ---
 
 ## Quick Start
 
-A working Colab notebook to run the system is available [here](https://colab.research.google.com/drive/1rYZk_YzPcdsjYIEoJ1X11Xc0Bb0me3ia?usp=sharing). Demonstration video can be watched at this [drive](https://drive.google.com/file/d/1xDsvANOYJUaSXyBL-mkqkLytXiHaQkHr/view?usp=sharing).
+Bạn có thể chạy hệ thống trực tiếp bằng Colab thông qua notebook tại liên kết sau:
+https://colab.research.google.com/drive/1rYZk_YzPcdsjYIEoJ1X11Xc0Bb0me3ia?usp=sharing.
 
-### Option 1: Local Installation
+Video minh họa sử dụng hệ thống có tại: 
 
-#### Prerequisites
+### Option 1: Chạy ở máy local
+
+#### Yêu cầu tiên quyết
 - Python 3.8
-- 8GB+ RAM (16GB recommended)
-- GPU optional (T4 or better for faster inference)
+- 8GB+ RAM (ít nhất 16GB)
+- GPU (có hoặc không) (T4 là vừa đủ)
 
-#### Installation
+#### Cài đặt
 
-1. **Clone or extract the project**
+1. **Clone hoặc giải nén dự án về máy**
 
-2. **Install dependencies**
+2. **Cài đặt thư viện và phụ thuộc**
 ```bash
 pip install -r requirements.txt
 ```
-or if you have installed `uv`:
+hoặc nếu có `uv`:
 ```bash
 uv sync
 ```
 
-3. **Run the chatbot**
-
-**Batch evaluation**:
-```bash
-python main.py --mode batch --evaluate
-```
-
-**Interactive mode**:
+3. **Chạy chatbot**
 ```bash
 python main.py --mode interactive
 ```
@@ -94,149 +94,80 @@ python main.py --mode interactive
 docker build -t food-chatbot .
 ```
 
-#### Run with Docker
-```bash
-docker run --rm --gpus all -v $(pwd)/output:/app/output food-chatbot
-```
-
-For interactive mode:
+#### Chạy bằng Docker
 ```bash
 docker run --rm -it --gpus all food-chatbot --mode interactive
 ```
 
 ---
 
-## Architecture Overview
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                        USER QUERY                           │
-└─────────────────┬───────────────────────────────────────────┘
-                  │
-                  ▼
-         ┌────────────────┐
-         │  Data Loader   │
-         │  (Menu Data)   │
-         └────────┬───────┘
-                  │
-                  ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    RAG SYSTEM                               │
-│                                                             │
-│  ┌───────────────┐   ┌──────────────┐   ┌──────────────┐    │
-│  │   Embedding   │──>│   FAISS      │──>│   Reranker   │    │
-│  │   (BGE-M3)    │   │   Retrieval  │   │  (BGE-v2-m3) │    │
-│  └───────────────┘   └──────────────┘   └──────┬───────┘    │
-│                                                │            │
-│                                          Top-K Documents    │
-└────────────────────────────────────────────────┼────────────┘
-                                                 │
-                                                 ▼
-                                          ┌─────────────┐
-                                          │   Context   │
-                                          └──────┬──────┘
-                                                 │
-                                                 ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    LLM GENERATOR                            │
-│                                                             │
-│  ┌────────────────────────────────────────────────────┐     │
-│  │  Qwen2.5-3B-Instruct                               │     │
-│  │  Query + Context → Natural Response                │     │
-│  └────────────────────────────────────────────────────┘     │
-└─────────────────────────────┬───────────────────────────────┘
-                              │
-                              ▼
-                    ┌───────────────────┐
-                    │  FINAL RESPONSE   │
-                    └───────────────────┘
-```
-
-### LLM: Qwen2.5-3B-Instruct
-- **Size**: 3B parameters
-- **Language**: Multilingual (including Vietnamese)
-- **Advantage**: Lightweight, runs on T4 GPU or CPU
-- **Source**: [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct)
+### Mô hình ngôn ngữ lớn được sử dụng: Qwen2.5-3B-Instruct
+- **Số lượng tham số**: 3 tỉ
+- **Ngôn ngữ**: Đa ngôn ngữ (bao gồm tiếng Việt)
+- **Điểm mạnh**: Nhẹ, chạy được trên GPU T4 hoặc CPU
+- **Nguồn**: [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct)
 
 ### Embeddings: BAAI/bge-m3
-- **Type**: Dense retrieval embeddings
-- **Language**: Multilingual
-- **Dimension**: 1024
-- **Source**: [Hugging Face](https://huggingface.co/BAAI/bge-m3)
+- **Loại**: Dense retrieval embeddings
+- **Ngôn ngữ**: Multilingual
+- **Kích thước**: 1024
+- **Nguồn**: [Hugging Face](https://huggingface.co/BAAI/bge-m3)
 
 ### Reranker: BAAI/bge-reranker-v2-m3
-- **Type**: Cross-encoder reranker
-- **Language**: Multilingual (including Vietnamese)
-- **Advantage**: Improved relevance scoring
-- **Source**: [Hugging Face](https://huggingface.co/BAAI/bge-reranker-v2-m3)
+- **Loại**: Cross-encoder reranker
+- **Ngôn ngữ**: Multilingual (including Vietnamese)
+- **Điểm mạnh**: Improved relevance scoring
+- **Nguồn**: [Hugging Face](https://huggingface.co/BAAI/bge-reranker-v2-m3)
 
 ---
 
 ## Usage Examples
-
-### Batch Mode
-
-Place your queries in `input/queries.txt` (one per line):
-```
-Có những món nào trong menu?
-Phở bò giá bao nhiêu?
-Tôi muốn đặt 2 phần phở bò và 1 ly trà sữa
-```
-
-Run:
-```bash
-python main.py --mode batch --evaluate
-```
-
-### Interactive Mode
-
 ```bash
 python main.py --mode interactive
 ```
 
-Example conversation:
+Ví dụ về cuộc hội thoại:
 ```
-Bạn: Có món gà rán không?
-Chatbot: Có ạ, chúng tôi có món Gà rán với giá 60,000đ...
+Bạn: Có món bún đậu không?
+Chatbot: Có ạ, chúng tôi có món Bún đậu với giá 110,000đ...
 
 Bạn: Giá bao nhiêu?
-Chatbot: Món gà rán có giá 60,000đ...
+Chatbot: Món bún đậu có giá 60,000đ...
 ```
 
 ---
 
-## Performance Evaluation
+## Đánh Giá Hiệu Suất
 
-The system evaluates performance using multiple metrics:
+Hệ thống đánh giá hiệu suất thông qua nhiều chỉ số:
 
-### Metrics
-- **F1 Score**: Token-level overlap
-- **BLEU**: N-gram precision
-- **ROUGE-L**: Longest common subsequence
+### Các Chỉ Số
+- **F1 Score**: Độ trùng khớp ở mức token
+- **BLEU**: Độ chính xác n-gram
+- **ROUGE-L**: Chuỗi con chung dài nhất
 
-### Context Retrieval
-- Retrieval success rate
-- Average response length
+### Truy Xuất Ngữ Cảnh
+- Tỷ lệ truy xuất thành công
+- Độ dài phản hồi trung bình
 
-Results are saved to `output/evaluation_metrics.json`
+Kết quả được lưu vào `output/evaluation_metrics.json`
 
 ---
 
-## Configuration
+## Cấu Hình
 
-Edit `config.py` to customize:
-
+Chỉnh sửa `config.py` để tùy chỉnh:
 ```python
-# Model selection
+# Lựa chọn mô hình
 LLM_MODEL = "Qwen/Qwen2.5-3B-Instruct"
 EMBEDDING_MODEL = "BAAI/bge-m3"
 RERANKER_MODEL = "BAAI/bge-reranker-v2-m3"
 
-# RAG parameters
-TOP_K_RETRIEVAL = 10  # Initial retrieval
-TOP_K_RERANK = 3      # After reranking
+# Tham số RAG
+TOP_K_RETRIEVAL = 10  # Truy xuất ban đầu
+TOP_K_RERANK = 3      # Sau khi xếp hạng lại
 
-# LLM generation
+# Sinh văn bản LLM
 MAX_NEW_TOKENS = 256
 TEMPERATURE = 0.7
 TOP_P = 0.9
@@ -245,45 +176,45 @@ DO_SAMPLE = False
 
 ---
 
-## Output Files
+## Các File Đầu Ra
 
 ### results.json
-Complete results with query, context, and response:
+Kết quả đầy đủ bao gồm câu hỏi, ngữ cảnh và câu trả lời:
 ```json
 [
   {
-    "query": "Phở bò giá bao nhiêu?",
+    "query": "Chè ba màu giá bao nhiêu?",
     "context": "...",
-    "response": "Phở bò có giá 50,000đ..."
+    "response": "Chè ba màu có giá 30,000đ..."
   }
 ]
 ```
 
 ### answers.txt
-One answer per line (for evaluation):
+Mỗi câu trả lời trên một dòng (để đánh giá):
 ```
-Phở bò có giá 50,000đ...
-Có ạ, chúng tôi có món gà rán...
+Chè ba màu có giá 50,000đ...
+Có ạ, chúng tôi có món bún đậu mắm tôm tá lả...
 ```
 
 ### formatted_output.txt
-Human-readable format with context.
+Định dạng dễ đọc với ngữ cảnh.
 
 ### query_response_pairs.txt
-Q&A pairs format.
+Định dạng cặp câu hỏi-đáp.
 
 ### evaluation_metrics.json
-Performance metrics and statistics.
+Các chỉ số hiệu suất và thống kê.
 
 ---
 
-## Assignment Information
+## Thông Tin Bài Tập
 
-**Course**: CO3085 - Natural Language Processing  
-**Semester**: 1, Academic Year 2025-2026  
-**Part**: 2 - Chatbot with LLM/RAG  
-**Option**: 2 - Full chatbot with LLM + RAG + Reranker
+**Môn học**: CO3085 - Xử Lý Ngôn Ngữ Tự Nhiên  
+**Học kỳ**: 1, Năm học 2025-2026  
+**Phần**: 2 - Chatbot với LLM/RAG  
+**Lựa chọn**: 2 - Chatbot hoàn chỉnh với LLM + RAG + Reranker
 
 ---
 
-**Note**: First run will download models (~3-5GB) and install heavy dependencies. Ensure stable internet connection.
+**Lưu ý**: Lần chạy đầu tiên sẽ tải xuống các mô hình (~3-5GB) và cài đặt các thư viện nặng. Đảm bảo kết nối internet ổn định.
