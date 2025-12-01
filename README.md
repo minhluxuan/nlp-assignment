@@ -3,7 +3,7 @@
 
 Một giải pháp hoàn chỉnh cho chatbot đặt món ăn Việt Nam, được xây dựng dựa trên các kỹ thuật NLP hiện đại: Mô hình ngôn ngữ lớn (LLM), Retrieval-Augmented Generation (RAG), và Reranking.
 
-Repo dự án tại đây [here](https://github.com/Pinminh/food-chatbot).
+Repo dự án tại đây [here](https://github.com/minhluxuan/nlp-assignment).
 
 ---
 
@@ -56,9 +56,10 @@ Repo dự án tại đây [here](https://github.com/Pinminh/food-chatbot).
 ## Quick Start
 
 Bạn có thể chạy hệ thống trực tiếp bằng Colab thông qua notebook tại liên kết sau:
-https://colab.research.google.com/drive/1rYZk_YzPcdsjYIEoJ1X11Xc0Bb0me3ia?usp=sharing.
+https://colab.research.google.com/drive/1xPwwaN1CWUBw-DkvpyZUos_9pR2slXG4?usp=sharing
 
-Video minh họa sử dụng hệ thống có tại: 
+Video minh họa sử dụng hệ thống có tại:
+https://drive.google.com/file/d/1amEpoEYVj6QxT4617ckfQ7uMZ5ydDP8N/view?usp=sharing
 
 ### Option 1: Chạy ở máy local
 
